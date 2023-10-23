@@ -9,11 +9,11 @@
         Random random = new Random();
         random.NextBytes(largeByteArray);
 
-        string filePath = "D:\\hugeByteArray10G.dat"; 
+        string filePath = "D:\\hugeByteArray1G.dat"; 
 
         File.WriteAllBytes(filePath, largeByteArray);
 
-        Console.WriteLine($"فایل به مسیر '{filePath}' ذخیره شد.");
+        Console.WriteLine($" file Created in : {filePath}");
         Console.ReadLine();
     }
 
